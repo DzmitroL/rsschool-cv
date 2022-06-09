@@ -1,1 +1,10 @@
 training 2
+font-family: 'Roboto', sans-serif;
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
