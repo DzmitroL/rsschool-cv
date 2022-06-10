@@ -12,27 +12,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
 </head>
-<body margin: 0; padding: 0;>
+<body min-height: 100vh; margin: 0; padding: 0;>
     <header class = "header">
+        
+        <div class="container"></div>
         <h1>Lenkovets Dzmitry</h1>
         <img width="200" height="175"  src="/foto 1.jpg" >
-        <h2><b></b>Junior front-end developer</h2>
+        <h2><i>Junior front-end developer</i></h2>
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+            </ul>
+          </nav>
     </header>
     <main class = "header">
-        <h1><i>Contacts</i></h1> 
+        <div class="container" id="contacts"></div>
+        <h1><i>contacts</i></h1>
         <ul>
             <li>Gomel, Belarus</li>
             <li>Email: Lenkovetsd@gmail.com</li>
             <li>Github:DzmitroL</li>
             <li>Discord:@Dzmitro#6387</li>
         </ul>
-        <h2>SUMMARY</h2>
+        <h2 id="summary">summary</h2>
         <p>I'm trying to master FRONT-END.I have a main job, programming is a hobby for me. I have completed several training projects and now I would like to take part in the creation of a real JavaScript project. My goal is to learn a pure JavaScript at a good level and learn the React library. I will be glad to join the creation of open source projects. I would like to work under the guidance of an experienced developer to gain practical experience.</p>
-        <p><b>Skills</b>
+        <p id="skills"><b>skills</b>
 <p>Management</p>
 <p>CAD software package for automating the work of an industrial enterprise at the stages of design and technological preparation of production. Provides development of products of any degree of complexity and purpose.</p>
         </p>
     </main>
-    <footer class = "header"></footer>
+    <footer class = "header">
+        <div class="container"></div>
+    </footer>
 </body>
 </html>
